@@ -10,7 +10,7 @@
 		  "image": "Coreos-stable",
 		  "region": "nyc3",
 		  "size": "512mb",
-		  "snapshot_name": "demo-{{user {{`build_number`}}",
+		  "snapshot_name": "demo-{{user `build_number`}}",
 		  "ssh_username": "core"
 		}
 	],
