@@ -1,0 +1,1 @@
+packer build deployments/template_do_prod.json
