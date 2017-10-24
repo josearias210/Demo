@@ -17,6 +17,5 @@ deployment:
       - sh deployments/qa.sh
   prod:
     branch: master
-    onwer: josearias210
     commands:
       -sh deployments/prod.sh
