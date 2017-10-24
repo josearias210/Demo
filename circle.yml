@@ -18,4 +18,4 @@ deployment:
   prod:
     branch: master
     commands:
-      -sh deployments/prod.sh
+      - sh deployments/prod.sh
