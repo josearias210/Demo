@@ -21,7 +21,7 @@
 				"git clone https://github.com/josearias210/Demo.git",
 				"cd Demo",
 				"docker build -t demo .",
-				"docker run -d -p 80:2757 demo"
+				"docker run -d -p 80:5000 demo"
 			]
 		}
 	]

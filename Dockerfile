@@ -4,4 +4,5 @@ EXPOSE 80
 EXPOSE 2757
 WORKDIR /app
 COPY . .
-CMD ["dotnet","run","--project","DemoWeb/DemoWeb.csproj"]
+CMD ["sh","deploy.sh"]
+#CMD ["dotnet","run","--project","DemoWeb/DemoWeb.csproj"]
