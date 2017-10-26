@@ -9,4 +9,5 @@ EXPOSE 2757
 WORKDIR /app
 COPY . .
 RUN cp default /etc/nginx/sites-available/default
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 CMD sh deploy.sh
