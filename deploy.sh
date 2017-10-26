@@ -1,1 +1,0 @@
-mkdir /deploy  && dotnet publish DemoWeb/DemoWeb.csproj -r ubuntu-x64 -c release -o /deploy --framework netcoreapp2.0  && cd  /deploy && service nginx restart && dotnet  DemoWeb.dll
