@@ -20,7 +20,7 @@ resource "digitalocean_droplet" "web" {
   }
 
   provisioner "local-exec" {
-    command = "sleep 180 && curl ${self.ipv4.address}:80"
+    command = "sleep 180 && curl ${self.ipv4_address}:80"
   }
 
   user_data = <<EOF
